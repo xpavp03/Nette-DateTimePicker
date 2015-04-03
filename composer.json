@@ -1,7 +1,7 @@
 {
   "name": "radekdostal/nette-datetimepicker",
   "description": "DatePicker and DateTimePicker input controls for Nette Framework",
-  "version": "1.6.1",
+  "version": "2.1.0",
   "type": "library",
   "authors": [
     {
@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": ">=5.3.0",
-    "nette/nette": ">=2.2.0"
+    "nette/nette": "^2.2.0"
   },
   "autoload": {
     "classmap": ["src/"]

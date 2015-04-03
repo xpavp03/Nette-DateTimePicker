@@ -75,22 +75,9 @@ class TbDateTimePicker extends TextInput
    */
   public function setValue($value)
   {
-    if ($value instanceof DateTime)
+    if ($value instanceof \DateTime)
       $value = $value->format($this->format);
 
     parent::setValue($value);
-  }
-
-  /**
-   * Generates control's HTML element
-   *
-   * @return \Nette\Utils\Html
-   */
-  public function getControl()
-  {
-    $control = parent::getControl();
-    $control->readonly = TRUE;
-
-    return $control;
   }
 }
